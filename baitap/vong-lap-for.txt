@@ -1,0 +1,40 @@
+Bài 1 :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vòng l?p for</title>
+</head>
+<body>
+<h2>Javascrip</h2>
+<p id="demo"></p>
+</body>
+<script>
+    let i;
+    let text = "";
+    for (i = 0; i < 5; i++) {
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById('demo').innerHTML = text;
+</script>
+</html>
+ Bài 2 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vòng l?p for</title>
+</head>
+<body>
+
+</body>
+<script>
+    let num = parseInt(prompt("Enter your number :"));
+    let total = 0;
+    let i;
+    for (i = 1; i <= num; i += 1) {
+        total = total + i;
+        alert(total);
+    }
+</script>
+</html>
